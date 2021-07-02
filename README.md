@@ -9,9 +9,15 @@ This program simply:
 ![Demo](media/demo.gif)
 
 ## Usage:
-You can find the compiled executables (x86 and x64) in the "bins" directory.
+You can find the compiled executables (x86 and x64) in the Release section.
 Otherwise you can compile it using Visual Studio.
 
+Self injection
+```
+ShellcodeInector.exe .\shellcode.bin
+```
+
+Remote injection example:
 ```
 ShellcodeInector.exe .\shellcode.bin notepad.exe
 ```
